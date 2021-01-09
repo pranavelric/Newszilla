@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.newsFragments.savedNewsFragment.SavedNewsFragment">
+
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/refresh_layout"
+    >
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/saved_news_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutAnimation="@anim/rec_layout_animation"
+
+        />
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</FrameLayout>

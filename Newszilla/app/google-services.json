@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "862098570635",
+    "project_id": "newszilla-a3fa8",
+    "storage_bucket": "newszilla-a3fa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862098570635:android:7994e468ea2d1cdddf838e",
+        "android_client_info": {
+          "package_name": "com.hilt.newszilla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862098570635-rr5lu58dtlbicljlh3178vm80fgh5fus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hilt.newszilla",
+            "certificate_hash": "b8c68feacb36384a58cbe1ff8954de087d15580c"
+          }
+        },
+        {
+          "client_id": "862098570635-i1hlrbipi5ajg9mm0347aa0ojhs9j44u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhRefO32f5BW28ZFQ1MwYHG-xc1Ermgj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862098570635-i1hlrbipi5ajg9mm0347aa0ojhs9j44u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

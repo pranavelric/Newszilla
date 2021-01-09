@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/breakingNewsFragment">
+
+    <fragment
+        android:id="@+id/articleNewsFragment"
+        android:name="com.hilt.newszilla.ui.home.newsFragments.articleNewsFragment.ArticleNewsFragment"
+        android:label="article_news_fragment"
+        tools:layout="@layout/article_news_fragment" >
+        <argument
+            android:name="article"
+            app:argType="com.hilt.newszilla.data.remote.response.headlineResponse.Article" />
+    </fragment>
+    <fragment
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.hilt.newszilla.ui.home.newsFragments.breakingNewsFragment.BreakingNewsFragment"
+        android:label="breaking_news_fragment"
+        tools:layout="@layout/breaking_news_fragment" >
+        <action
+            android:id="@+id/action_breakingNewsFragment_to_articleNewsFragment"
+            app:destination="@id/articleNewsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/searchNewsFragment"
+        android:name="com.hilt.newszilla.ui.home.newsFragments.searchNewsFragment.SearchNewsFragment"
+        android:label="search_news_fragment"
+        tools:layout="@layout/search_news_fragment" >
+        <action
+            android:id="@+id/action_searchNewsFragment_to_articleNewsFragment"
+            app:destination="@id/articleNewsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/savedNewsFragment"
+        android:name="com.hilt.newszilla.ui.home.newsFragments.savedNewsFragment.SavedNewsFragment"
+        android:label="saved_news_fragment"
+        tools:layout="@layout/saved_news_fragment" >
+        <action
+            android:id="@+id/action_savedNewsFragment_to_articleNewsFragment"
+            app:destination="@id/articleNewsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+            />
+    </fragment>
+
+</navigation>
