@@ -7,7 +7,7 @@ object AppConstants {
     const val NIGHT_MODE = "NIGHT_MODE"
     const val SHARED_PREF = "SHARED_PREF"
     @Volatile
-    var API_KEY = "411e78aee11448e8b0b512867a4990b9"
+    var API_KEY = "Use your api key here"
     const val ARG_CATEGORY = "category"
     const val QUERY_PAGE_SIZE = 20
     const val QUERY_HEADLINE_PAGE_SIZE = 10
@@ -18,8 +18,7 @@ object AppConstants {
     const val NEWS_LANGUAGE = "NEWS_LANGUAGE"
     const val NEWS_SORTBY = "NEWS_SORT_BY"
 
-    // var FIREBASE_API_KEY = "411e78aee11448e8b0b512867a4990b9"
-// const val API_KEY = "411e78aee11448e8b0b512867a4990b9"
+
 
     const val SEARCH_NEWS_DELAY = 500L
 }
