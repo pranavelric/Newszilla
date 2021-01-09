@@ -2,7 +2,7 @@
 
  Newszilla is newsfeed app that allows you to read, and share the information you need to stay ahead of the trends in the entire world. It uses newsapi.org API to get news
  
-<a href="https://play.google.com/store/apps/details?id=com.hilt.newszilla&hl=en"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200" ></a>
+<a href="https://play.google.com/store/apps/details?id=com.hilt.newszilla&hl=en" target="_blank"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200" ></a>
 
 # Setup API Key
 - Visit NewsAPI.org to get your API Key
